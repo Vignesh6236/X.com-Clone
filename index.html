@@ -7,31 +7,70 @@
     <link rel="stylesheet" href="src/output.css" />
   </head>
   <body class="bg-black text-white">
-    <div class="container mx-auto max-w-screen-xl flex mt-5">
-      <div class="first mx-auto w-2/5 ">
+    <div class="container mx-auto max-w-screen-xl flex ">
+      <div class="first mx-auto w-2/5 h-screen pt-5">
         <div class="logo">
-          <img class="w-8" src="assets/Icons/Logo.svg" alt="Logo" />
+          <img class="w-8 "  src="assets/Icons/Logo.svg" alt="Logo" />
         </div>
         <div class="sidebar flex">
             
             <div class="w-full">
-                <ul class="flex flex-col space-y-8 text-xl my-10">
-                    <li class="flex justify-start gap-x-8 items-center "><img class="invert w-7" src="assets/Icons/Home.svg" alt="Home">Home</li>
-                    <li class="flex justify-start gap-x-8 items-center  "><img class="invert w-7" src="assets/Icons/Explore.svg" alt="Explore">Explore</li>
-                    <li class="flex justify-start gap-x-8 items-center  "><img class="invert w-7" src="assets/Icons/Notifications.svg" alt="Notifications">Notifications</li>
-                    <li class="flex justify-start gap-x-8 items-center  "><img class="invert w-7" src="assets/Icons/Messages.svg" alt="Messages">Messages</li>
-                    <li class="flex justify-start gap-x-8 items-center  "><img class="invert w-7" src="assets/Icons/Grok.svg" alt="Grok">Grok</li>
-                    <li class="flex justify-start gap-x-8 items-center  "><img class="invert w-7" src="assets/Icons/Bookmarks.svg" alt="Bookmarks">Bookmarks</li>
-                    <li class="flex justify-start gap-x-8 items-center  "><img class=" w-7" src="assets/Icons/Profile.svg" alt="Profile">Profile</li>
-                    <li class="flex justify-start gap-x-8 items-center  "><img class=" w-7" src="assets/Icons/More.svg" alt="More">More</li>
+                <ul class="flex flex-col space-y-6 text-xl my-10 font-bold">
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2"><img class="invert w-7" src="assets/Icons/Home.svg" alt="Home">Home</li>
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2 "><img class="invert w-7" src="assets/Icons/Explore.svg" alt="Explore">Explore</li>
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2 "><img class="invert w-7" src="assets/Icons/Notifications.svg" alt="Notifications">Notifications</li>
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2 "><img class="invert w-7" src="assets/Icons/Messages.svg" alt="Messages">Messages</li>
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2 "><img class="invert w-7" src="assets/Icons/Grok.svg" alt="Grok">Grok</li>
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2 "><img class="invert w-7" src="assets/Icons/Bookmarks.svg" alt="Bookmarks">Bookmarks</li>
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2"><img class=" w-7" src="assets/Icons/Profile.svg" alt="Profile">Profile</li>
+                    <li class="flex justify-start gap-x-4 items-center hover:bg-gray-900  hover:rounded-full hover:cursor-pointer w-fit px-4  py-2 "><img class=" w-7" src="assets/Icons/More.svg" alt="More">More</li>
                   </ul>
             </div>
    
          
         </div>
       </div>
-      <div class="second mx-auto w-full border border-white border-y-black">b</div>
-      <div class="third mx-auto w-1/2">c</div>
+
+
+
+      <div class="second mx-auto w-full h-screen border border-gray-700 border-y-black overscroll-auto pt-5">b</div>
+
+
+      
+      <div class="third mx-auto w-1/2 h-screen pt-5">
+        <div class="search">
+          <input type="text" class="w-full px-4 py-2 rounded-full mx-4 bg-[#383838] border:none focus:border focus:border-blue-400 focus:bg-black h-10" placeholder="Search">
+        </div>
+        
+        <div class="whats m-4 p-4 w-full border border-gray-700 rounded-xl overflow-auto">
+          <h1 class="font-bold text-xl">What's Happening</h1>
+          <div class="item my-4 px-4 hover:bg-gray-950 hover:cursor-pointer space-y-2">
+            <div class="d text-lg text-gray-500">Trending Everywhere</div>
+            <div class="font-bold">#OlympicGames</div>
+            <div>2M posts</div>
+          </div>
+          <div class="item my-4 px-4 hover:bg-gray-950 hover:cursor-pointer space-y-2">
+            <div class=" text-lg text-gray-500">Trending in India</div>
+            <div class="font-bold">#RCB</div>
+            <div>80k posts</div>
+          </div>
+          <div class="item my-4 px-4 hover:bg-gray-950 hover:cursor-pointer space-y-2">
+            <div class=" text-lg text-gray-500">Trending in Bangalore</div>
+            <div class="font-bold">#Vignesh</div>
+            <div>200 posts</div>
+          </div>
+          </div>
+           
+        <div class="who m-4 p-4 w-full border border-gray-700 rounded-xl overflow-auto">
+          <h1 class="font-bold text-xl">Who to follow</h1>
+          <div class="item my-4 px-4 4 space-y-6">
+             <div class="font-bold flex justify-between">Vignesh
+              <button class="bg-white text-black px-4 py-1.5 rounded-full active:opacity-70 transition duration-100">Follow</button>
+             </div>
+            <div class="text-blue-400 underline hover:cursor-pointer ">Show More</div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
