@@ -13,32 +13,32 @@ X.com Clone is a responsive website designed to replicate the X.com website. Bui
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
 
-## Project Description 📋
 <a id="project-description"></a>
+## Project Description 📋
 X.com Clone is a replica of the X.com website that provides a seamless user experience. With its responsive design, the site ensures accessibility on desktops, tablets, and smartphones. The use of Tailwind CSS enhances the UI with utility-first styling, making development efficient and the design aesthetically pleasing.
 
-## Features 🌟
 <a id="features"></a>
+## Features 🌟
 - **Responsive Design:** Optimized for various devices, including desktops, tablets, and mobile phones.
 - **Scalable Layout:** Can accommodate a large number of posts.
 - **Deployment Ready:** Set up for easy deployment on web hosting services.
 - **Utility-First CSS:** Leverages the flexibility and speed of Tailwind CSS.
 
-## Tech Stack 🛠️
 <a id="tech-stack"></a>
+## Tech Stack 🛠️
 - **HTML:** For the structure of the application.
 - **Tailwind CSS:** For styling and layout.
 - **Figma:** Used for designing the UI elements of the clone.
 
-## Prerequisites 📦
 <a id="prerequisites"></a>
+## Prerequisites 📦
 Before you begin, ensure you have the following installed:
 - **Git:** For version control and cloning the repository.
 - **Visual Studio Code:** As your code editor.
 - **A modern web browser** (e.g., Chrome, Firefox, Safari).
 
-## Installation and Usage 🚀
 <a id="installation-and-usage"></a>
+## Installation and Usage 🚀
 To get started with X.com Clone, follow these steps:
 1. Clone the repository:
     ```bash
@@ -50,8 +50,8 @@ To get started with X.com Clone, follow these steps:
     ```
 3. Run the project by double-clicking the `index.html` file. It will automatically open in your default web browser.
 
-## Screenshots 📷
 <a id="screenshots"></a>
+## Screenshots 📷
 Here are a few screenshots of how the project looks on a desktop browser:\
 \
 Image 1:\
@@ -66,14 +66,14 @@ Image 1:\
 Image 2:\
 ![Mobile 2](https://github.com/user-attachments/assets/3875757e-5791-401e-8596-e9558c3df565)
 
-## Assets
 <a id="assets"></a>
+## Assets
 The assets used in this project are sourced from:
 - [X Communities UI Kit](https://www.figma.com/community/file/1394393065629302672/x-communities-ui-kit)
 - [Twitter UI Clone Design](https://www.figma.com/community/file/1039189378542401977/twitter-ui-clone-design)
 
-## Contributing 🤝
 <a id="contributing"></a>
+## Contributing 🤝
 Contributions are welcome! If you have any ideas or improvements, feel free to submit a Pull Request.
 
 ## Acknowledgments 🙏
